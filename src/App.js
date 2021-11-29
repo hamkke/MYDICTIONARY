@@ -110,10 +110,10 @@ const BtnWrap = styled.div`
   button {
     position:fixed;
     left:1%;
-    bottom:-6%;
+    bottom:0;
     background:transparent;
     border:none;
-    font-size:400px;
+    font-size:200px;
   }
   button:hover {
     color:#2AB57A;

@@ -16,7 +16,7 @@ const initialState = {
 
 // Action Creators
 export function loadCard(card_list){
-    return{ type:LOAD, card_list }
+    return{ type:LOAD, card_list:card_list }
 }
 export function createCard(Card) {
     return { type: CREATE, Card };
